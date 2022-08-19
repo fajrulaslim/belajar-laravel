@@ -1,13 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Home</title>
-</head>
-<body>
-    <p>Hello  {{ $name }}, Selamat Datang! </p>
-</body>
-</html>
+@extends('_layouts.main')
+
+@section('content-page')
+  <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                Hello {{ $name }}, Selamat Datang
+            </div>
+        </div>
+    </div>
+  </section>
+@endsection
