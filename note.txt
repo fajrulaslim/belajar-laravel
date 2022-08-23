@@ -1,0 +1,37 @@
+Post::create([
+    'title' => "Judul Pertama",
+    'slug' => "judul-pertama",
+    'category_id' => 1,
+    'author' => "Fajrul Aslim",
+    'excerpt' => "Lorem ipsum pertama.",
+    "body" => "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tempora dolorum nam qui recusandae minus obcaecati sunt. Adipisci asperiores saepe ratione quia molestiae temporibus itaque cum aspernatur dicta nulla debitis numquam explicabo distinctio quo, facere quos aut.</p><p>Voluptas vel nulla cupiditate officia deleniti, consequuntur quisquam magni quaerat repudiandae accusantium quia culpa nesciunt nihil maxime minima. Modi fugit quibusdam sit perferendis neque iusto magni aliquam, aperiam nihil eaque, dolores consequatur iste voluptates sed dignissimos maiores esse.</p>"
+])
+Post::create([
+    'title' => "Judul Kedua",
+    'slug' => "judul-kedua",
+    'category_id' => 2,
+    'author' => "Fajrul Aslim",
+    'excerpt' => "Lorem ipsum kedua.",
+    "body" => "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tempora dolorum nam qui recusandae minus obcaecati sunt. Adipisci asperiores saepe ratione quia molestiae temporibus itaque cum aspernatur dicta nulla debitis numquam explicabo distinctio quo, facere quos aut.</p><p>Voluptas vel nulla cupiditate officia deleniti, consequuntur quisquam magni quaerat repudiandae accusantium quia culpa nesciunt nihil maxime minima. Modi fugit quibusdam sit perferendis neque iusto magni aliquam, aperiam nihil eaque, dolores consequatur iste voluptates sed dignissimos maiores esse.</p>"
+])
+Post::create([
+    'title' => "Judul Ketiga",
+    'slug' => "judul-ketiga",
+    'author' => "Fajrul Aslim",
+    'category_id' => 3,
+    'excerpt' => "Lorem ipsum ketiga.",
+    "body" => "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum tempora dolorum nam qui recusandae minus obcaecati sunt. Adipisci asperiores saepe ratione quia molestiae temporibus itaque cum aspernatur dicta nulla debitis numquam explicabo distinctio quo, facere quos aut.</p><p>Voluptas vel nulla cupiditate officia deleniti, consequuntur quisquam magni quaerat repudiandae accusantium quia culpa nesciunt nihil maxime minima. Modi fugit quibusdam sit perferendis neque iusto magni aliquam, aperiam nihil eaque, dolores consequatur iste voluptates sed dignissimos maiores esse.</p>"
+])
+
+Category::create([
+    'name' => "Frontend Developer",
+    'slug' => "frontend-developer",
+])
+Category::create([
+    'name' => "Backend Developer",
+    'slug' => "backend-developer",
+])
+Category::create([
+    'name' => "Game Developer",
+    'slug' => "game-developer",
+])
