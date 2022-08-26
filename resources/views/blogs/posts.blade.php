@@ -3,6 +3,7 @@
 @section('content-page')
   <section>
     <div class="container">
+      <h2 class="mb-3">{{ $heading }}</h2>
         @foreach ($posts as $item)
             <article class="mb-5 pb-4 border-bottom">
                 <a href="/blog/{{ $item->slug }}" class="mb-0 text-info text-decoration-none"><h3>{{ $item->title }}</h3></a>
